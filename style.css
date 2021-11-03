@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #14b938;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+.header {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("IMG-0216.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section {
+    height: 400px;
+    width: 50%;
+    margin: 30px auto;
+    border: 10px solid black;
+    text-align: center;
+    line-height: 30px;
+  }
+
+.Halo {
+    font-size: 18px;
+}
+
+.Halo a {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
