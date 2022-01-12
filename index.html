@@ -1,80 +1,118 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>KindOfCoolPortfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-    <div class="header">
-        <h1>Tyrese Exantus</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#About-Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
- </header>
-
- <main class="container">
-    <div class="image">
-
-    </div>
-
-    <div class="main" id="About-Me">
-    <section>
-        <h2>About Me</h2>
-        <p>Hello! My name is Tyrese Exantus and I am currently a student at the Rugters Coding Bootcamp. I am very excited to take in new knowledge and to experience what the future has to offer.</p>
-    </section>
-    </div>
-    
-      <div class="main" id="Work" >
-          <h2>Work</h2>
-        <section class="flex-item">
-        <a href="https://trealtye20.github.io/Password/">
-            <h4>Password Generator</h4>
-            <img src="password.jpg" alt="password">
-        </a>
-
-        <a href="https://trealtye20.github.io/Day-Planner/">
-            <h4>Day-Planner</h4>
-            <img src="Day-planner.jpg" alt="Planner">
-        </a>
-
-        <a href="https://github.com/trealtye20/Password.git">Github repo: Password Generator</a>
-        <a href="https://github.com/trealtye20/Day-Planner.git">Github repo: Day Planner</a>
+      <h1>Tyrese Exantus</h1>
+      <nav>
         
+            <a href="#About-Me">About Me</a>
+          
+            <a href="#Work">Work</a>
+          
+            <a href="#Contact">Contact</a>
+
+            <a href="./assets/img/Tyrese's Resume.pdf" target="_blank">Resume</a>
+          
+      </nav>
+    </header>
+    <section class="hero"></section>
+    <main class="container">
+      <section class="flex-item" id="About-Me">
+        <h2>About Me</h2>
+        <div>
+          <p>
+            Hello! My name is Tyrese Exantus and I am currently a student at the
+            Rugters Coding Bootcamp. 
+          </p>
+          <p>
+            I am very excited to take in new knowledge
+            and to experience what the future has to offer. Becoming a developer is one of the biggest goals in my life that I would like to achieve and I am willing to work for the position.
+          </p>
+          <p>
+            I am  passionate about accomplishing daily goals. I try to exercise at least 4 times a week and spend time  working on some personal side hustles of my own.
+          </p>
+        </div>
       </section>
-       </div>
-       
-      <div class="Halo" id="Contact">
-      <section>
+
+      <section class="flex-item" id="Work">
+        <h2>Work</h2>
+        <div class="box-container">
+          <a
+            href="https://trealtye20.github.io/Password/"
+            class="box-item password"
+          >
+            <div>
+              <h4>Password Generator</h4>
+              <span>Javascript/html/css</span>
+            </div>
+          </a>
+
+          <a
+            href="https://trealtye20.github.io/Day-Planner/"
+            class="box-item day"
+          >
+          <div>
+              <h4>Day-Planner</h4>
+              <span>html/bootstrap/jquery</span>
+          </div>
+            
+          </a>
+
+          <a
+            href="https://notetaker-te.herokuapp.com/"
+            class="box-item misc1"
+          >
+          <div>
+              <h4>Notetaker</h4>
+              <span>html/css/javascript/nodejs</span>
+          </div>
+            
+          </a>
+          <a
+            href="https://rbc-mental-health-track.herokuapp.com/"
+            class="box-item misc2"
+          >
+          <div>
+              <h4>Mental Health Tracker</h4>
+              <span>html/css/javascript/mysql</span>
+          </div>
+            
+          </a>
+
+          <a
+            href="https://stevekoutsodontis.github.io/Barker/"
+            class="box-item bark"
+          >
+          <div>
+              <h4>Barker</h4>
+              <span>html/materialize/css/javascript</span>
+          </div>
+            
+          </a>
+        </div>
+      </section>
+
+      <section class="flex-item contact" id="Contact">
         <h2>Contact</h2>
-        <h4>Email: exantustyrese10@gmail.com</h4>
-        <h4>Phone: 862-224-6303</h4>
-        <a href="https://github.com/trealtye20/Portfolio.git">Github: https://github.com/trealtye20/Portfolio.git</a>
-        <br>
-        <a href="www.linkedin.com/in/tyrese-exantus-a74863164">linkedin: www.linkedin.com/in/tyrese-exantus-a74863164</a>
-        <br>
-        <a href="file:///C:/Users/exant_/Downloads/Tyrese's%20Resume.pdf">Resume: Click Here</a>
+        <address>
+            <a href="mailto:exantustyrese10@gmail.com">Email: exantustyrese10@gmail.com</a>
+            <a href="tel:+18622246303">Phone: 862-224-6303</a>
+          <a href="https://github.com/trealtye20/Portfolio.git"
+            >Github: https://github.com/trealtye20/Portfolio.git</a
+          >
+          <a href="www.linkedin.com/in/tyrese-exantus"
+            >www.linkedin.com/in/tyrese-exantus</a
+          >
+            </a
+          >
+        </address>
       </section>
-      </div>
-
-    </div>
-    <div class="footer">
-        <h2>Made by🔥Tyrese Exantus🔥</h2>
     </main>
-</body>
-
+  </body>
 </html>

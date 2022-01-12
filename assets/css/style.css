@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: rgb(211, 211, 211);
+  --secondary: #d9dcd6;
+  --tertiary: #14b938;
+  --dark: rgb(0, 0, 0);
+  --light: #ffffff;
+}
+
+body {
+  background-color: #d9dcd6;
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--primary);
+  background-color: var(--light);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #14b938;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 35px darkgrey;
+}
+
+header h1 {
+  color: var(--tertiary);
+  font-size: 4vw;
+  background-color: var(--secondary);
+  padding: 5px 1% 5px 6%;
+  margin: 0;
+  line-height: 1;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
+
+nav a:hover {
+  background-color: var(--dark);
+  background-size: 100% 100%;
+  color: var(--primary);
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+.hero {
+  background: var(--primary);
+  background-image: url('../img/IMG-0216.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 2% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.container {
+  max-width: 88%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-item {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  color: var(--dark);
+}
+
+.flex-item > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--primary);
+  font-size: 4vw;
+  line-height: 1.1;
+}
+
+.flex-item > div {
+  flex: 0 0 77%;
+}
+
+.flex-item a {
+  margin-top: 10%;
+  justify-content: center;
+  color: black;
+}
+
+.flex-item p {
+  margin-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-item {
+  border: 5px solid var(--secondary);
+  background-color: var(--primary);
+  color: var(--tertiary);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150px;
+  transition: all 0.5m;
+  font-size: 0.9rem;
+}
+
+.box-item:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.box-item:hover {
+  background-color: var(--dark);
+}
+
+.box-item div {
+  background-color: var(--secondary);
+  padding: 8px 10px;
+}
+
+.box-item h4 {
+  font-size: 1.6rem;
+}
+
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.contact address a {
+    color: var(--tertiary);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+}
+
+.contact address a:hover {
+    background-color: var(--dark);
+    background-size: 100% 100%;
+    color: var(--light);
+}
+
+.password {
+  background-image: url("../img/password.jpg");
+}
+
+.day {
+  background-image: url("../img/Day-planner.jpg");
+}
+
+.misc1 {
+  background-image: url("../img/Notetaker.png");
+}
+
+.misc2 {
+  background-image: url("../img/Mental-Health-Tracker.png");
+}
+
+.bark {
+  background-image: url("../img/Barker.png")
+}
+
+
+
+/* media queries */
+
+/* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
