@@ -14,8 +14,6 @@ The CSS is very simple and descrete some font changes and heading color decorati
 
 # Github and Linkedin
 
-https://trealtye20.github.io/Portfolio/
-
 www.linkedin.com/in/tyrese-exantus-a74863164
 
 # Technologies Used
